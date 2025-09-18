@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile {
+  background-color: pink;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgb(128, 0, 100);
+}
+
+h2 {
+  margin: 10px 0 5px;
+}
+
+.role {
+  color: rgb(128, 0, 98);
+  margin-bottom: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size:medium;
+}
+
+.description {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(121, 35, 35);
+}
+
+.email {
+  color:blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+    .btn {
+      width: 100px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color:palevioletred;
+      color: rgb(17, 13, 13);
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+
+    }
+
+    .btn:hover {
+      background:blueviolet;
+    }
+
+
+
+    </style>
+  
+    
+</head>
+<body>
+    <div class="profile">
+        <img src="pic.jpg" alt="load" class="pic">
+    <h2>KALAIVANI</h2>
+    <div class="role">FullStack Developer</div>
+    <div class="description">
+        <p>I'm a versatile FullStack Developer skilled in building modern, scalable web applications using both frontend and backend technologies. I specialize in JavaScript, React, Node.js, and databases like MongoDB and MySQL.</p>
+        <a href="mailto:kalai@gmail.com" class="email">kalai@gmail.com</a><br><br>
+        <center><div class="btn">Contact Me</div></center>
+    </div>
+</body>
+</html>
